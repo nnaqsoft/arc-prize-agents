@@ -1,0 +1,70 @@
+# Secrets / config — NEVER commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# MLflow / experiment tracking
+mlruns/
+mlartifacts/
+.mlflow/
+
+# Data + model artifacts (large, regenerable)
+data/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.parquet
+*.feather
+
+# Logs + run artifacts
+logs/
+runs/
+outputs/
+wandb/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frame dumps and traces (can get huge)
+frames/
+traces/
+recordings/
