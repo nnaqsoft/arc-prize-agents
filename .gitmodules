@@ -1,0 +1,3 @@
+[submodule "third_party/ARC-AGI-3-Agents"]
+	path = third_party/ARC-AGI-3-Agents
+	url = https://github.com/arcprize/ARC-AGI-3-Agents.git
